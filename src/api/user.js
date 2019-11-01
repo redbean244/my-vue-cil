@@ -1,4 +1,4 @@
-import request from '@/utils/request'
+import request from '@/utils/request';
 // import qs from 'qs'
 
 export function getCode(params) {
@@ -6,5 +6,5 @@ export function getCode(params) {
     url: '/sys/contractor/getCode',
     method: 'get',
     params
-  })
+  });
 }
